@@ -123,3 +123,25 @@ fish_size[, 2]
 An edit!
 
 ## Lists
+
+```{r}
+urchins <- list(color = "blue", values = c(1, 2, 3), meal = c("lunch", "dinner", "dessert"), cost = 5L)
+```
+
+```{r}
+urchins_list <- urchins[2]
+
+urchins_vector <- urchins[[2]]
+
+```
+
+```{r}
+urchins$values
+```
+
+```{r}
+sample1 <- c(1,2,3,4,5,6,3,2,5)
+sample2 <- c(2,3,4,5,3,2,9,10)
+
+ttest_ex <- t.test(sample1, sample2)
+```
